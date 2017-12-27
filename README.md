@@ -2,6 +2,8 @@
 
 # SimpleCrawler: A Single Domain Sitemap Generator
 
+Version 1.0.0
+
 Given a root Web Page URL that uses either the http:// or https:// protocol, SimpleCrawler will recursively traverse
 all the connected Web Pages that are in the same domain as the root Web Page URL.
 The output consists of a list of recursively connected Web pages. For each page listed, three additional lists
