@@ -12,7 +12,9 @@ not in the same domain, and one for all the images that are on the page.
 
 Python 3 is required. You can check this by simply running:
 
+```
 $ python --version
+```
 
 You should get some output like 3.6.2.
 If you do not have Python, please install the latest 3.x version
