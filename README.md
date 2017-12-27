@@ -23,9 +23,9 @@ If you do not have Python, please install the latest 3.x version
 from python.org.
 
 There are several ways to install SimpleCrawler. Method one is to check out the project and install
-all the application's dependencies. Method two is to download the source files into a diectory,
+all the application's dependencies. Method two is to download the source files into a directory,
 create a virtual environment, and use the tools in the newly created  virtualenv
-to load the required Python libraries automatically. Another method uses a combination of methid one and method two.
+to load the required Python libraries automatically. Another method may use a combination of method one and method two.
 
 This document addresses method two, and so virtualenv needs to be installed on your system.
 
@@ -62,7 +62,7 @@ $ pip install --user virtualenv
 Download the project files from github into a project directory.
 Master should have the latest stable code. 
 
-Open a new terminal window and  cd to the project directory.
+Open a new terminal window and cd to the project directory.
 Install a virtual environment as follows
 
 ```
@@ -70,14 +70,14 @@ $ virtualenv env
 ```
 
 This will create new directory in the project called env.
-Now activate this virtual environment for the tereminal window by entering the following command
+Now activate this virtual environment for the terminal window by entering the following command
 
 ```
 $ source env/bin/activate
 ```
 
-This will update the environment for the terminal window by adding VIRTUAL_ENV= and adding ../env/bin
-the head of the PATH.
+This will update the environment for the current terminal by adding VIRTUAL_ENV= and adding ../env/bin
+to the head of the PATH.
 
 Now install the required packages into the newly created virtual environment
 
@@ -85,13 +85,13 @@ Now install the required packages into the newly created virtual environment
 $ python3 -m pip install -r requirements.txt
 ```
 
-This will insure that the libraries specified in the requirements.txt file are properly
-installed in the virtual environment
+This will insure that the libraries required by the SimpleCrawler appliction and that are specified
+in the requirements.txt file are installed in the virtual environment just created
 
 
 ## Running the tests
 
-After the virtual environment  has been set up the installation can be verified by running
+After the virtual environment has been set up the installation can be verified by running
 the project tests in the top level project directory as follows
 
 ```

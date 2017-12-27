@@ -6,8 +6,8 @@ from mock import patch
 
 def testrun():
     print("main invoked for testrun")
-    #testurl_OK = "http://wiprodigital.com"
-    testurl_OK = "http://msnbc.com"
+    testurl_OK = "http://wiprodigital.com"
+    #testurl_OK = "http://msnbc.com"
     rOpt = "-r" + testurl_OK
     testargs = ["simplecrawler", rOpt]
     with patch.object(sys, 'argv', testargs):
