@@ -58,6 +58,7 @@ $ pip install --user virtualenv
 ### Installing
 
 Download the project files from github into a project directory.
+Master should have the latest stable code. 
 
 Open a new terminal window and  cd to the project directory.
 Install a virtual environment as follows
