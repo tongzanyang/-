@@ -98,8 +98,7 @@ the project tests in the top level project directory as follows
 $ python3 -m unittest
 ```
 
-This will run a battery of tests. The last test will scrape the website wiprodigital.com and
-output a sitemap report.
+This will run a battery of tests.
 
 
 ## Running the application
